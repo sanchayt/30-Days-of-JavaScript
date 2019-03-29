@@ -56,7 +56,29 @@
     <audio data-key="76" src="sounds/tink.wav"></audio>
 
     <script>
-    
+      //event listener for keys pressed
+      window.addEventListener("keydown", function(e) {
+        //get the element which associates to the specific key pressed
+        const keyTab = document.querySelector(`div[data-key="${e.keyCode}"]`);
+        if (!keyTab) return;
+
+        keyTab.classList.add("playing");
+        playSound(e.keyCode + "");
+        
+        setTimeout(() => {
+          keyTab.classList.remove("playing");
+        }, 70);
+      });
+
+      // This function play specific audio on key pressed
+      function playSound(key) {
+        Array.from(document.getElementsByTagName("audio")).forEach(function(element) {
+          if (element.dataset.key === key) {            
+            element.currentTime = 0;
+            element.play();
+          }
+        });
+      }
     </script>
   </body>
 </html>
