@@ -10,3 +10,4 @@ Original files from @wesbos and solutions can be found [here](https://github.com
 
 1. [x] [JavaScript Drum Kit](./01_JS_Drum_Kit)
 2. [x] [JS and CSS Clock](./02%20-%20JS%20and%20CSS%20Clock)
+3. [x] [CSS Variables](./03%20-%20CSS%20Variables)
