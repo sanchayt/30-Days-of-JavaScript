@@ -12,3 +12,4 @@ Original files from @wesbos and solutions can be found [here](https://github.com
 2. [x] [JS and CSS Clock](./02%20-%20JS%20and%20CSS%20Clock)
 3. [x] [CSS Variables](./03%20-%20CSS%20Variables)
 4. [x] [Array Cardio Day 1](./04%20-%20Array%20Cardio%20Day%201)
+5. [x] [Flex Panel Gallery](./05%20-%20Flex%20Panel%20Gallery)
